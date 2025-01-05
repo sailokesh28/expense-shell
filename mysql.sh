@@ -28,7 +28,7 @@ then
     exit 1 #other than 0
 fi
 }
-
+mkdir -p /var/log/Expense-logs
 echo "Script Started Executed at: $TIMESTAMP" &>>$LOG_FILE_NAME
 
 CHECK_ROOT
